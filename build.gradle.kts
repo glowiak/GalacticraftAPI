@@ -135,7 +135,6 @@ publishing {
 
 license {
     header = project.file("LICENSE_HEADER.txt")
-    include("**/dev/galacticraft/**/*.java")
     include("build.gradle.kts")
     ext {
         set("year", Year.now().value)
